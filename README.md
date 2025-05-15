@@ -30,7 +30,7 @@ A graphical tool for creating and exporting customized timeline visualizations b
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Requirements
 
