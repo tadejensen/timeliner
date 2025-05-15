@@ -178,8 +178,10 @@ class TimelineEditor(tk.Tk):
     def save_timeline(self, name='timeline'):
         '''saves the timeline figure in a selectable selected folder'''
         fig = self.get_figure()
-        path = filedialog.askdirectory(parent=self)
-        path = f'{path}/{name}.jpg'
+        path = filedialog.asksaveasfilename(defaultextension=".png",
+                                            filetypes=[("PNG Image", "*.png")],
+                                            initialfile='timeline',
+                                            title="Speichern unter...")
          
         fig.savefig(path, dpi=300)
     
