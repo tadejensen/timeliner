@@ -1,6 +1,7 @@
 # Timeline Editor
 
 A graphical tool for creating and exporting customized timeline visualizations based on date inputs. Built with Python and `tkinter`, this application allows users to enter events, intervals, and date points, visualize the result as a timeline, and save the output as a `.png` image.
+![Example Timeline](example_timeline.jpg)
 
 ---
 
